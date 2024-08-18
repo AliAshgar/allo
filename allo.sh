@@ -26,13 +26,13 @@ allorad version
 read -p "Enter your Keplr seed phrase: " SEED_PHRASE
 
 cd $HOME
-git clone https://github.com/allora-network/basic-coin-prediction-node
+git clone https://github.com/AliAshgar/basic-coin-prediction-node.git
 cd basic-coin-prediction-node
 
 cat <<EOF > config.json
 {
     "wallet": {
-        "addressKeyName": "testkey",
+        "addressKeyName": "AlloraKey",
         "addressRestoreMnemonic": "$SEED_PHRASE",
         "alloraHomeDir": "",
         "gas": "1000000",
