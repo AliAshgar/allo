@@ -62,51 +62,6 @@ cat <<EOF > config.json
             }
         },
         {
-            "topicId": 3,
-            "inferenceEntrypointName": "api-worker-reputer",
-            "loopSeconds": 5,
-            "parameters": {
-                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
-                "Token": "BTC"
-            }
-        },
-        {
-            "topicId": 4,
-            "inferenceEntrypointName": "api-worker-reputer",
-            "loopSeconds": 5,
-            "parameters": {
-                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
-                "Token": "BTC"
-            }
-        },
-        {
-            "topicId": 5,
-            "inferenceEntrypointName": "api-worker-reputer",
-            "loopSeconds": 5,
-            "parameters": {
-                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
-                "Token": "SOL"
-            }
-        },
-        {
-            "topicId": 6,
-            "inferenceEntrypointName": "api-worker-reputer",
-            "loopSeconds": 5,
-            "parameters": {
-                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
-                "Token": "SOL"
-            }
-        },
-        {
-            "topicId": 7,
-            "inferenceEntrypointName": "api-worker-reputer",
-            "loopSeconds": 5,
-            "parameters": {
-                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
-                "Token": "ETH"
-            }
-        },
-        {
             "topicId": 8,
             "inferenceEntrypointName": "api-worker-reputer",
             "loopSeconds": 5,
@@ -116,12 +71,12 @@ cat <<EOF > config.json
             }
         },               
         {
-            "topicId": 9,
+            "topicId": 7,
             "inferenceEntrypointName": "api-worker-reputer",
             "loopSeconds": 5,
             "parameters": {
                 "InferenceEndpoint": "http://inference:8000/inference/{Token}",
-                "Token": "ARB"
+                "Token": "ETH"
             }
         }
     ]
